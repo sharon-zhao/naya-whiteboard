@@ -108,7 +108,7 @@ app.patch('/updateimage', async(req, res) => {
 // });
 
 mongoose
-  .connect("mongodb+srv://sharon:Zxr2303811992@crud.vonoy.mongodb.net/naya-studio?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://sharon:<pw>@crud.vonoy.mongodb.net/naya-studio?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
