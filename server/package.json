@@ -1,0 +1,21 @@
+{
+  "name": "naya-app",
+  "version": "1.0.0",
+  "description": "canvas",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "author": "sharon",
+  "license": "ISC"
+}
